@@ -1,0 +1,106 @@
+body {
+    background-color: #182929;
+    margin: 0;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    background: green;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    border-radius: 10%;
+}
+
+#cont {
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+}
+
+
+
+/*Text*/
+
+    /*Fonts:
+    
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Catamaran', sans-serif;
+    
+*/
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
+    padding: 80px;
+    transition: 0.5s;
+     -webkit-transition:  0.5s;
+    -moz-transition:  0.5s;
+}
+
+span {
+    color: white;
+    text-align: center;
+    
+}
+
+#message {
+    color: #182929;
+    font-family: 'Catamaran', sans-serif;
+    display: inline-block;
+    width: 20%;
+}
+
+
+
+ /*Heading*/
+
+#strip {
+    background-color: ghostwhite;
+    height: 30px;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.selected {
+    color: white;
+    background-color: deepskyblue;
+    border: none;
+    margin: 0;
+}
+
+#colorDisplay {
+    text-transform: uppercase;
+}
+
+
+
+
+/*Buttons*/
+
+button {
+    background-color: ghostwhite;
+    color: deepskyblue;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Archivo Black', sans-serif;
+    height: 100%;
+    letter-spacing: 1px;
+    outline: none;
+    transition: 0.5s;
+    -webkit-transition:  0.5s;
+    -moz-transition:  0.5s;
+}
+
+button:hover {
+    color: ghostwhite;
+    background-color: deepskyblue;
+    transition: 0.5s;
+    -webkit-transition:  0.5s;
+    -moz-transition:  0.5s;    
+}
