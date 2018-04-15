@@ -1,0 +1,30 @@
+{
+  "name": "rgb.min",
+  "version": "1.0.0",
+  "description": "Simple .JS web app game",
+  "main": "index.js",
+  "dependencies": {
+    "less": "^3.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.3.0"
+  },
+  "scripts": {
+    "test": "RGBgo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlivierCoq/RGB-color-game.git"
+  },
+  "keywords": [
+    "rgb-game"
+  ],
+  "author": "Olivier Coq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OlivierCoq/RGB-color-game/issues"
+  },
+  "homepage": "https://github.com/OlivierCoq/RGB-color-game#readme"
+}
